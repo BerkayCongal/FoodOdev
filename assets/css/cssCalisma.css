@@ -1,0 +1,279 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 28px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+max-width: 1440px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+}
+
+.header {
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 34px;
+}
+
+.nav {
+display: flex;
+list-style: none;
+gap: 48px;
+}
+
+.avatar {
+display: flex;
+color: #212121;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+text-align: right;
+gap: 8px;
+}
+
+.foodfoto {
+background-image: url("../img/yemeklog.svg");
+width: 1440px;
+height: 784px;
+margin: 0  auto;
+}
+
+.buyukYazı {
+text-align: center;
+font-family: "Montserrat";
+font-size: 95px;
+line-height: 81px;
+color: #FFFFFF;
+padding: 259px 260px;
+}
+
+.button {
+color: #FFFFFF;
+font-family: "Montserrat";
+font-weight: 600px;
+font-size: 23px;
+line-height: 28px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 16px 64px ;
+gap: 16px;
+height: 64px;
+background: #FD7E14;
+border-radius: 3px;
+width: 300px;
+margin: -219px auto ; 
+}
+
+.menu {
+display: flex;
+justify-content: center;
+padding: 64px;
+}
+
+.cardstab {
+display: flex;
+margin: 25px 165px;
+font-size: 24px;
+line-height: 34px;
+padding: 40px 0 0;
+}
+
+
+
+.cards {
+
+display: flex;
+justify-content: center;
+gap: 21px;
+width:1200px;
+margin: 0 auto;
+flex-wrap: wrap;
+text-align: center;
+}
+
+.card6 {
+align-items: center;
+margin: 0 ;
+width: 266px;
+}
+
+.loadButton {
+display: flex;
+font-size: 23px;
+line-height: 32px;
+font-weight: 600px;
+text-align: center;
+border: 1px solid #121212;
+border-radius: 3px;
+padding: 13px 54px;
+gap: 10px;
+margin: 40px auto;
+}
+
+.cookie {
+background-image: url("../img/cooke.svg");
+width: 1110px;
+height: 352px;
+margin: 0 auto;
+text-align: center;
+align-items: center;
+margin: 37px auto;
+border-radius: 24px;
+}
+
+.cookiefont p  {
+justify-content: center;  
+font-size: 40px;
+line-height: 48px;
+letter-spacing: -0.4px;
+text-align: center;
+color: #FFFFFF;
+margin: 93px auto;
+}
+
+.footerStrawberry {
+  display: flex;
+  justify-content: space-between;
+  margin: 120px auto 0 ;
+  gap: 100px;
+}
+
+.footerStrawberry img {
+  border-radius: 24px;
+}
+.left-trending {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.left h2 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -0.7px;
+
+}
+
+.left {
+  padding: 80px 0;
+}
+
+.buttonStraw {
+  display: flex;
+  margin: 32px 109px 0 0;
+  padding: 16px 65px;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  background: #FD7E14;
+  border-radius: 3px;
+}
+
+.buttonStraw  a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.font-pm {
+  display: flex;
+  margin: 0 auto;
+  font-size: 19px;
+  line-height: 35px;
+  padding: 10px;
+}
+.footer-img {
+  display: flex;
+  margin: 0 auto;
+  padding: 159px 0 50px;
+  gap: 24px;
+  
+}
+
+.hamburger h4{
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.Pancake2  h4 {
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.hamburger img {
+  border-radius: 24px;
+}
+
+.Pancake2 img {
+  border-radius: 24px;
+}
+
+.Pancake2  {
+  margin: 52px 0;
+}
+
+.footers {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  gap: 300px;
+  margin: 50px 0 42px 0;
+}
+
+.logo {
+  display: flex;
+}
+.links {
+  display: flex;
+  gap: 56px;
+  list-style: none;
+}
+.footers-son {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 466px;
+  margin: 117px 0 44px 0 ;
+}
+
+.footers-nav {
+  display: flex;
+  gap: 50px;
+}
+
